@@ -1,0 +1,381 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 575px) 
+{
+	header .navbar {
+		background-size: cover;
+		padding: 15px;
+	}
+	.navbar-brand img{
+		width: 150px;
+	}
+	header .banner-text {
+		padding: 100px 0;
+	}
+	header .banner-text h1{
+		font-size: 32px;
+	}
+	header{
+		height: auto;
+	}
+	.education .education-text .education-par .common-btn, header .navbar .right-side .common-btn, header .banner-text .common-btn, .pricing-section .pricing .single-pricing .common-btn {
+		padding: 12px 30px;
+	}
+	header .navbar .right-side .common-btn.common-btn-1{
+		margin-bottom: 20px;
+	}
+	.card-section {
+		padding: 150px 15px;
+	}
+	.card-section .single-card{
+		margin-bottom: 40px;
+	}
+	.card-section .single-card-4{
+		margin-bottom: 0;
+	}
+	.education .education-img{
+		margin-bottom: 30px;
+	}
+	.education .education-img::after{
+		display: none;
+	}
+	.education .education-text h3{
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+	.education .education-text .education-par p{
+		margin-top: 0;
+	}
+	.education .education-text .education-par p {
+		font-size: 18px;
+	}
+	.education .education-text .education-par span {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.mt-40-sm{
+		margin-top: 40px;
+	}
+	.education .mb-160 {
+		margin-bottom: 120px;
+	}
+	.pricing-section .hadding h2 {
+		font-size: 44px;
+	}
+	.pricing-section .pricing .single-pricing{
+		margin-bottom: 60px;
+	}
+	.pricing-section::before{
+		right: 0;
+	}
+	.single-testimonial-1{
+		position: absolute;
+		left: 0 !important;
+		top: 15px !important;
+	}
+	.single-testimonial-5{
+		left: 0px !important;
+		top: 685px !important;
+	}
+	.single-testimonial-2{
+		left: 0px !important;
+		top: 199px !important;
+	}
+	.single-testimonial-6{
+		left: 0px !important;
+		top: 855px !important;
+	}
+	.single-testimonial-3{
+		left: 0px !important;
+		top: 378px !important;
+	}
+	.single-testimonial-7{
+		left: 0px !important;
+		top: 1025px !important;
+	}
+	.single-testimonial-4{
+		left: 0 !important;
+		top: 530px !important;
+	}
+	.single-testimonial-8{
+		left: 0 !important;
+		top: 1185px !important;
+	}
+	.testimonial .testimonial-tem .single-testimonial .single-testimonial-text h5 {
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	.testimonial .testimonial-tem .single-testimonial .single-testimonial-text p {
+		font-size: 12px;
+		margin-top: 5px;
+	}
+	.testimonial .testimonial-tem{
+		height: 1340px;
+	}
+	footer {
+		height: auto;
+		font-size: 12px;
+		padding-top: 100px;
+	}
+	footer .footer-social-midea a {
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+	}
+	footer .footer-menu a{
+		font-size: 12px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+	header .navbar {
+		background-size: cover;
+		padding: 15px;
+	}
+	header{
+		height: auto;
+	}
+	header .banner-text {
+		padding: 100px 0;
+	}
+	.education .education-text .education-par .common-btn, header .navbar .right-side .common-btn, header .banner-text .common-btn, .pricing-section .pricing .single-pricing .common-btn {
+		padding: 15px 35px;
+	}
+	.card-section .single-card{
+		margin-bottom: 50px;
+	}
+	.card-section .single-card:hover {
+		transform: scale(1.1);
+	}
+	.education-img {
+		margin-bottom: 80px;
+	}
+	.education .education-img::after{
+		bottom: -40px;
+		left: -40px;
+	}
+	.education .education-text h3 {
+		font-size: 42px;
+	}
+	.education .education-img-2::after {
+		position: absolute;
+		content: "";
+		right: -40px;
+		left: auto;
+		bottom: -40px;
+	}
+	.education .education-img-2 {
+		margin-top: 40px;
+	}
+	.single-pricing{
+		margin-bottom: 50px;
+	}
+	.pricing-section .pricing .single-pricing:hover {
+		transform: scale(1.1);
+	}
+	.single-testimonial-1{
+		left: 0 !important;
+		top: 15px !important;
+	}
+	.single-testimonial-5{
+		left: 0px !important;
+		top: 685px !important;
+	}
+	.single-testimonial-2{
+		left: 0px !important;
+		top: 199px !important;
+	}
+	.single-testimonial-6{
+		left: 0px !important;
+		top: 855px !important;
+	}
+	.single-testimonial-3{
+		left: 0px !important;
+		top: 378px !important;
+	}
+	.single-testimonial-7{
+		left: 0px !important;
+		top: 1025px !important;
+	}
+	.single-testimonial-4{
+		right: 0 !important;
+		top: 530px !important;
+	}
+	.single-testimonial-8{
+		right: 0 !important;
+		top: 1185px !important;
+	}
+	.testimonial .testimonial-tem{
+		height: 1340px;
+	}
+	footer {
+		padding: 100px 0;
+		font-size: 14px;
+		height: auto;
+	}
+	footer .footer-menu a {
+		padding: 0 24px;
+		font-size: 20px;
+		font-size: 14px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+	header .navbar {
+		background-size: cover;
+		padding: 15px;
+	}
+	header{
+		height: auto;
+	}
+	header .banner-text {
+		padding: 100px 0;
+	}
+	.single-card{
+		margin-bottom: 50px;
+	}
+	.education-img {
+		margin-bottom: 80px;
+	}
+	.education .education-img::after{
+		bottom: -40px;
+		left: -40px;
+	}
+	.education .education-img-2::after {
+		position: absolute;
+		content: "";
+		right: -40px;
+		left: auto;
+		bottom: -40px;
+	}
+	.education .education-img-2 {
+		margin-top: 40px;
+	}
+	.education .education-img img{
+		width: 100%;
+	}
+
+	.single-pricing{
+		margin-bottom: 50px;
+	}
+	.pricing-section .pricing .single-pricing h2 {
+		font-size: 37px;
+	}
+	.single-testimonial-1{
+		left: 0 !important;
+		top: 15px !important;
+	}
+	.single-testimonial-5{
+		left: 0px !important;
+		top: 685px !important;
+	}
+	.single-testimonial-2{
+		left: 0px !important;
+		top: 199px !important;
+	}
+	.single-testimonial-6{
+		left: 0px !important;
+		top: 855px !important;
+	}
+	.single-testimonial-3{
+		left: 0px !important;
+		top: 378px !important;
+	}
+	.single-testimonial-7{
+		left: 0px !important;
+		top: 1025px !important;
+	}
+	.single-testimonial-4{
+		right: 0 !important;
+		top: 530px !important;
+	}
+	.single-testimonial-8{
+		right: 0 !important;
+		top: 1185px !important;
+	}
+	.testimonial .testimonial-tem{
+		height: 1340px;
+	}
+	footer{
+		padding: 100px 0;
+		height: auto;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) 
+{
+	header .navbar{
+		background-size: cover;
+	}
+	.navbar-brand{
+		width: 140px;
+	}
+	header{
+		height: auto;
+	}
+	header .banner-text {
+		padding: 100px 0;
+	}
+	.single-card{
+		margin-bottom: 50px;
+	}
+	.education .education-img::after{
+		left: -26px;
+	}
+	.education .education-img-2::after{
+		left: auto;
+		right: -26px;
+	}
+	.single-pricing{
+		margin-bottom: 50px;
+	}
+	.testimonial .testimonial-tem .top-testimonial .single-testimonial-1 {
+		position: absolute;
+		left: 0;
+		top: 190px;
+	}
+	.testimonial .testimonial-tem .top-testimonial .single-testimonial-2 {
+		position: absolute;
+		left: 200px;
+		top: 36px;
+	}
+	.testimonial .testimonial-tem .top-testimonial .single-testimonial-3 {
+		position: absolute;
+		left: 404px;
+		top: 316px;
+	}
+	.testimonial .testimonial-tem .top-testimonial .single-testimonial-4 {
+		position: absolute;
+		right: 0;
+		top: 65px;
+	}
+	.testimonial .testimonial-tem .top-testimonial .single-testimonial-5 {
+		position: absolute;
+		left: 0px;
+		top: 456px;
+	}
+	.testimonial .testimonial-tem .top-testimonial .single-testimonial-6 {
+		position: absolute;
+		left: 154px;
+		top: 700px;
+	}
+	.testimonial .testimonial-tem .top-testimonial .single-testimonial-7 {
+		position: absolute;
+		left: 422px;
+		top: 549px;
+	}
+	.testimonial .testimonial-tem .top-testimonial .single-testimonial-8 {
+		position: absolute;
+		right: 0;
+		top: 697px;
+	}
+	footer{
+		height: auto;
+		padding: 100px 0;
+	}
+
+}
